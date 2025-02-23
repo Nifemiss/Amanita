@@ -1,0 +1,38 @@
+/* カスタムコントロール */
+.custom-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* シークバーと音量バー */
+#seek-bar, #volume-bar {
+    width: 200px;
+}
+
+/* 歌詞コンテナ */
+.lyrics-container {
+    margin-top: 20px;
+    height: 250px; /* 歌詞の表示エリア */
+    overflow-y: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+/* 歌詞テキスト */
+.lyrics-line {
+    font-size: 18px;
+    padding: 5px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+/* 現在再生中の歌詞をハイライト */
+.lyrics-active {
+    color: #ff3b30;
+    font-weight: bold;
+    font-size: 22px;
+}
